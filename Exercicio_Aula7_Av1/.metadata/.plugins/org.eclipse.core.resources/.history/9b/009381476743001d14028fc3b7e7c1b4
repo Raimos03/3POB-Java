@@ -1,0 +1,14 @@
+package pacote;
+
+public class produto {
+	
+	
+	
+	
+	
+	public produto() {
+		
+		
+	}
+
+}

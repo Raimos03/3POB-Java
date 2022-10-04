@@ -1,0 +1,26 @@
+package pacote;
+
+public class produto {
+	
+	private int id;
+	private String CodBarras;
+	private int Sku;
+	private String nome;
+	private String descricao;
+	
+	private String categoria;
+	private float preco;
+	private float peso;
+	private String fabricante;
+	 
+	
+	
+	
+	public produto() {
+		
+		
+	}
+	
+	public produto()
+
+}
