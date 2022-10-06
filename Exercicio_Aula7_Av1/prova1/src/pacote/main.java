@@ -42,12 +42,36 @@ public class main {
             else if(i==1){
                 
                 System.out.println("-----inserir produto: ----- \n");
-                System.out.println("\tDigite o nome:");
-                String nome= sc.nextLine();
-                System.out.println("\tDigite a matricula:");
-                String matricula=sc.nextLine();
-                System.out.println("\tDigite o periodo:");
-                int periodo=sc.nextInt();
+                
+                System.out.println("\tDigite o ID:");
+                id=sc.nextInt();
+                
+                System.out.println("\tDigite o Codigo de Barras:\n");
+                CodBarras=sc.nextLine();
+                
+                System.out.println("\tDigite o SKU:\n");
+                Sku=sc.nextLine();
+                
+                System.out.println("\tDigite o Nome:\n");
+                nome=sc.nextLine();
+                
+                System.out.println("\tDigite a Descricao\n:");
+                descricao=sc.nextLine();
+                
+                System.out.println("\tDigite a Categoria:\n");
+                categoria=sc.nextLine();
+                
+                System.out.println("\tDigite o Fabricante:\n");
+                fabricante=sc.nextLine();
+                
+                System.out.println("\tDigite o preco:\n");
+                preco= sc.nextDouble();
+                
+                System.out.println("\tDigite o peso:\n");
+                peso=sc.nextDouble();
+                
+                
+                //Produto novoproduto=new Produto(id,cod);
                 
 //                Aluno naluno= new Aluno(matricula,nome,periodo);
 //                
