@@ -13,8 +13,6 @@ public class Produto {
 	private String fabricante;
 	 
 	
-	
-	
 	public int getId() {
 		return id;
 	}
@@ -82,11 +80,18 @@ public class Produto {
 	public String getFabricante() {
 		return fabricante;
 	}
-
+ 
 	public void setFabricante(String fabricante) {
 		this.fabricante = fabricante;
 	}
-
+	
+	public String stringProduto() {
+		
+		String s= new String();
+		s=s+String.valueOf(this.getId())+","+String.valueOf(this.getNome())+","+String.valueOf(this.getCodBarras())+","+String.valueOf(this.getSku())+","+String.valueOf(this.getDescricao())+","+String.valueOf(this.getCategoria())+","+String.valueOf(this.getPreco())+","+String.valueOf(this.getPeso())+","+String.valueOf(this.getFabricante());
+		
+		return s;
+	}
 	
 	public Produto(){
 	}

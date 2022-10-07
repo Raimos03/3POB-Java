@@ -1,0 +1,3 @@
+Estoque1,Categoria1,2
+12,leite,123,456,caixa,lat,5.12,2.56,elege
+1234,coca-cola,5678,98745,refrigerante,refigerante,10.56,23.45,coca
