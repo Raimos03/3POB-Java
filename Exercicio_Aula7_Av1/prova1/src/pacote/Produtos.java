@@ -13,7 +13,6 @@ public class Produtos { // e um estoque
 	
 	public void InsereEstoque(Produto novoProduto) {
 		
-		
 		Vetprodutos.add(novoProduto);
 		qtdEstoque++;
 	}
@@ -21,10 +20,9 @@ public class Produtos { // e um estoque
 	public int BuscaProdutoNome(String bnome) {
 		
 		//procura produto por nome
-		
-		int max= getQtdEstoque();
+			
 		int i;
-		for(i=0;i<max;i++) {		
+		for(i=0;i<Vetprodutos.size();i++) {		
 			if(bnome.equals(Vetprodutos.get(i).getNome())) {			
 				return i; // retorna endereco do item no vetor
 			}
@@ -36,9 +34,8 @@ public class Produtos { // e um estoque
 		
 		//procura produto por id
 		
-		int max= getQtdEstoque();
 		int i;
-		for(i=0;i<max;i++) {		
+		for(i=0;i<Vetprodutos.size();i++) {		
 			if(Vetprodutos.get(i).getId()==bid) {			
 				return i; // retorna endereco do item no vetor
 			}
@@ -49,9 +46,8 @@ public class Produtos { // e um estoque
 	public int BuscaProdutoSku(String bsku) {
 		//procura produto por nome
 			
-		int max= getQtdEstoque();
 		int i;
-		for(i=0;i<max;i++) {		
+		for(i=0;i<Vetprodutos.size();i++) {		
 			if(bsku.equals(Vetprodutos.get(i).getSku())) {			
 				return i; // retorna endereco do item no vetor
 			}
@@ -223,9 +219,6 @@ public class Produtos { // e um estoque
 			return 0;	
 		}
 		
-		
-	}
-	
-	
+	}	
 	
 }

@@ -122,14 +122,12 @@ public class main {
 	                		
 	                		
 	                		opcaotroca=menutroca.opcaoTroca(sc);
-	                		
-	                		
+	                			                		
 	                		if(estoque.AlteraProduto(resultado,opcaotroca,sc)==1) {
 	                			
 	                			System.out.println("\t-- Produto alterado com sucesso  --\n");
 	                		}
-	                		else {
-	                			
+	                		else {	                			
 	                			System.out.println("\t-- Erro na alteracao do NOME do produto  --\n");
 	                		}
 	                		
@@ -149,8 +147,7 @@ public class main {
 	                	}
 	                	else { //encontrou
 	                		
-	                		opcaotroca=menutroca.opcaoTroca(sc);
-	                		
+	                		opcaotroca=menutroca.opcaoTroca(sc);	                		
 	                		
 	                		if(estoque.AlteraProduto(resultado,opcaotroca,sc)==1) {
 	                			
@@ -178,8 +175,7 @@ public class main {
 	                	else {// encontrou
 	                		
 	                		
-	                		opcaotroca=menutroca.opcaoTroca(sc);
-	                		
+	                		opcaotroca=menutroca.opcaoTroca(sc);	                		
 	                		
 	                		if(estoque.AlteraProduto(resultado,opcaotroca,sc)==1) {
 	                			
@@ -189,12 +185,10 @@ public class main {
 	                			
 	                			System.out.println("\t-- Erro na alteracao do SKU do produto  --\n");
 	                		}
-	                			                	       		
-	                		
+	                			                	       			                		
 	                	}
 	                	
-	                	estoque.ExibeProduto(resultado);
-	                	
+	                	estoque.ExibeProduto(resultado);	                	
 	                }
 	                
 	                else {
@@ -214,8 +208,7 @@ public class main {
 	            	
 	            	opcaobusca=sc.nextInt();
 	                sc.nextLine();
-	                
-	                
+	                	                
 	                if(opcaobusca==1) { //busca 1
 	                	System.out.println("\t-- Digite o Nome: --\n");
 	                	
@@ -235,9 +228,7 @@ public class main {
 	                		else {
 	                			
 	                			System.out.println("\t-- Erro na EXLCUSAO do produto  --\n");
-	                			}
-	                		               		
-	                		
+	                			}	                		               			                		
 	                		}
 	                	                	
 	                }
@@ -269,12 +260,9 @@ public class main {
 	                		System.out.println("\t-- Produto nao encontrado --\n");
 	                	}
 	                	else { // encontrou
-	                		                		        		
-	                		
-	                		estoque.ExibeProduto(resultado);
-	                			                		
-	                	}
-	                	
+	                		                		        			                		
+	                		estoque.ExibeProduto(resultado);	                			                		
+	                	}                	
 	                }
 	                	
 	               else {
@@ -282,26 +270,22 @@ public class main {
 	                	
 	                }
        
-	                break;
-	                 
+	                break;	                 
 	                 
 	            case 5: 
 	            	
 	            	System.out.println("--- Listando todo o estoque ---\n");
 	                estoque.ExibeEstoque();
 	                break;
-	                
-	                
+	               	                
 	                 
 	            case 6: // ---------- SALVANDO EM ARQUIVO ----------
 	            	
 	            	
 	            	System.out.println("--- Salvando o estoque no arquivo ---\n");
-	          
-	            	
+	          	            	
 	            	Save savefile= new Save();
-	            	
-	            	
+	            		            	
 	            	if (savefile.SalvaArquivo(estoque)>0) {
 	            		
 	            		System.out.println("--- Salvando .. ---\n");
@@ -315,8 +299,7 @@ public class main {
 	            			
 	            		}
 	                break;   
-	                
-	                 
+	                	                 
 	            default :	            	
 	            
 	            	System.out.println("Opcao Invalida/n");

@@ -4,11 +4,7 @@ import java.util.Scanner;
 
 public class Menu {
 	
-	
-
-	
 	public int getOpcao(Scanner sc){
-		
 		
         System.out.println("\t-1 para inserir produto:");
         System.out.println("\t-2 para alterar produto:");
