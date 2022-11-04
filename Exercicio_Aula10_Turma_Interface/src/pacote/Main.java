@@ -4,13 +4,13 @@
  */
 
 package pacote;
-
+import java.util.ArrayList;
 /**
  *
  * @author Pedro PC
  */
 
-import java.util.ArrayList;
+
 import java.util.List;
 import java.util.Scanner;
 
@@ -18,15 +18,15 @@ public class Main {
     
 
     public static void main(String[] args) {
+    	
         System.out.println("Hello World!");
         
         Disciplina disciplina = new Disciplina();
         disciplina.setCodigo("3POB");
         disciplina.setPeriodo(3);
-        disciplina.setNome("pROGRAMACAO ORIENTADA basica");
+        disciplina.setNome("Programacao orientada basica");
         
         Disciplina disciplina2 = new Disciplina("2Cal","Matematica",2);
-        
         
         System.out.println(" Disciplina 1 \n");
         System.out.println(" Codigo: "+ disciplina.getCodigo());
@@ -39,16 +39,19 @@ public class Main {
         System.out.println(" Nome: "+ disciplina2.getNome());
         
         
+        List<Disciplina> lDisciplina = new ArrayList<Disciplina>();
         List<Aluno> lAluno = new ArrayList<Aluno>();
         List<Professor> lProfessor = new ArrayList<Professor>();
         
         
+        lDisciplina.add(disciplina);
+        lDisciplina.add(disciplina2);
         
+        Scanner sc = new Scanner(System.in);
         int i=1;
         while(i!=0){
             
-            Scanner sc = new Scanner(System.in);
-                    
+           
             System.out.println("Digite o comando:");
             System.out.println("\t-1 para cadastrar aluno:");
             System.out.println("\t-2 para cadastrar professor:");
@@ -62,6 +65,7 @@ public class Main {
             System.out.println("\t-0 para terminar:");
             
             i = sc.nextInt();
+            sc.nextLine();
             
             if(i==0){
                 break;
@@ -69,6 +73,7 @@ public class Main {
             
             else if(i==1){
                 
+            	
                 System.out.println("----- Cadastrar Aluno: ----- \n");
                 System.out.println("\tDigite o nome:");
                 String nome= sc.nextLine();
@@ -78,13 +83,34 @@ public class Main {
                 int periodo=sc.nextInt();
                 
                 Aluno naluno= new Aluno(matricula,nome,periodo);
-                
                 lAluno.add(naluno); // add na lista de alunos
                 
+                          
             }
             
             else if(i==2){
-                System.out.println("Cadastrar Professor:");
+            	
+            	
+                System.out.println("----- Cadastrar Professor: -----");
+                
+                System.out.println("\tDigite o nome:");
+                String nomeprof= sc.nextLine();
+                System.out.println("\tDigite a matricula:");
+                String matriculaprof=sc.nextLine();
+                System.out.println("\tDigite a disciplina:");
+                String disciplinaprof= sc.nextLine();
+                
+                
+                /* exibir as disciplinas listadas*/
+                                                       
+                          
+                Professor nprofessor= new Professor(matriculaprof,nomeprof,disciplinaprof);
+                lProfessor.add(nprofessor); // add na lista de professores
+                
+                
+                nprofessor.AssociaProfessorDisciplina(nprofessor, lDisciplina);
+                
+                
                 
             }
             else if(i==3){
@@ -128,30 +154,38 @@ public class Main {
             		
             		turma1.imprimeTurma();
             		turma2.imprimeTurma();
+            		
             }
             else if(i==4){ // i=4
                 
-                 System.out.println("Cadastrar Disciplina:");
+                 System.out.println("----- Cadastrar Disciplina -----");
             }
             else if(i==5){ // i=4
                 
-                 System.out.println("Cadastrar Disciplina:");
+                 System.out.println("----- Exibe Aluno -----");
             }
             else if(i==6){ // i=4
                 
-                 System.out.println("Cadastrar Disciplina:");
+                 System.out.println("----- Exibe Professores: -----");
+                
             }
             else if(i==7){ // i=4
                 
-                 System.out.println("Cadastrar Disciplina:");
+                 System.out.println("----- Exibe Turmas -----:");
             }
             else if(i==8){ // i=4
                 
-                 System.out.println("Cadastrar Disciplina:");
+                 System.out.println("----- Exibe Disciplinas -----");
+                 
             }
             
-            sc.close();
+            else {
+            	
+            	 System.out.println("Digite a opcao correta:");
+            }
+            
+            
         }
-        
+        sc.close();
     }
 }

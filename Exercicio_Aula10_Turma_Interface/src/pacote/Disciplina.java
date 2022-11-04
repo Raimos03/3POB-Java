@@ -39,6 +39,27 @@ public class Disciplina implements IDisciplina {
         return periodo;
     }
     
+    /*public Disciplina BuscaDisciplina(String bdisciplina) {
+    	
+    		
+    	int i =0;
+    	
+    	for (i=0;i<ldisciplina.len) {
+    		
+    		
+    	}
+    	
+    	
+    	return 
+    }*/
+    
+    public void ExibeDisciplina() {
+    	
+    	System.out.printf("Codigo: %s -", this.getCodigo());
+    	System.out.printf("Periodo: %s /n", this.getPeriodo());
+    	
+    }
+    
     public Disciplina(String codigo, String nome, int periodo){
         
         this.codigo=codigo;
