@@ -1,3 +1,4 @@
+// classe de um Menu de escolha do usuario chamada apenas quando o programa roda em modo de "preenchimento manual dos jogos(confrontos)" 
 package pacote;
 import java.util.Scanner;
 
