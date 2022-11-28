@@ -1,0 +1,80 @@
+Jogos da fase de grupos da Copa do Catar.
+As seleções da copa do Catar estão distribuídas em 8 grupos de quatro seleções cada.
+São 32 seleções ao todo.
+O sistema deverá cadastrar os jogos de cada seleção logo no início do do sistema.
+Cada seleção possui nome, nome do técnico e qual grupo a que pertence.
+Cada confronto entre seleções possui data do jogo, hora do jogo, local do jogo, nome das duas seleções e placar do jogo.
+O sistema deverá ter as seguintes funcionalidades:
+Mostrar o calendário de jogos completo com os resultados dos jogos já ocorridos.
+Mostrar o calendário de jogos de uma seleção solicitada pelo usuário com os resultados dos jogos já ocorridos.
+Mostrar os jogos de um grupo com os resultados dos jogos já ocorridos.
+Informar o resultado de um jogo.
+
+
+GRUPOS DA COPA DO MUNDO 2022
+GRUPO A: Catar, Equador, Senegal e Holanda
+GRUPO B: Inglaterra, Irã, Estados Unidos e País de Gales
+GRUPO C: Argentina, Arábia Saudita, México e Polônia
+GRUPO D: França, Austrália, Dinamarca e Tunísia
+GRUPO E: Espanha, Costa Rica, Alemanha e Japão
+GRUPO F: Bélgica, Canadá, Marrocos e Croácia
+GRUPO G: Brasil, Sérvia, Suíça e Camarões
+GRUPO H: Portugal, Gana, Uruguai e Coreia do Sul                  eQuAdOR  eQJHA76
+
+TABELA DE JOGOS DA FASE DE GRUPOS DA COPA DO MUNDO
+Grupo A
+20/11 – 13h00 – Catar x Equador – Estádio Al Bayt
+21/11 – 13h00 – Senegal x Holanda – Estádio Al Thumama
+25/11 – 10h00 – Catar x Senegal – Estádio Al Thumama
+25/11 – 13h00 – Holanda x Equador – Estádio Internacional Khalifa
+29/11 – 12h00 – Holanda x Catar – Estádio Al Bayt
+29/11 – 12h00 – Equador x Senegal – Estádio Internacional Khalifa
+Grupo B
+21/11 – 10h00 – Inglaterra x Irã – Estádio Internacional Khalifa
+21/11 – 16h00 – Estados Unidos x Gales – Estádio Ahmad bin Ali
+25/11 – 07h00 – Gales x Irã – Estádio Ahmed bin Ali
+25/11 – 16h00 – Inglaterra x Estados Unidos – Estádio Al Bayt
+29/11 – 16h00 – Gales x Inglaterra – Estádio Ahmad bin Ali
+29/11 – 16h00 – Irã x Estados Unidos – Estádio Al Thumama
+Grupo C
+22/11 – 07h00 – Argentina x Arábia Saudita – Estádio Nacional de Lusail
+22/11 – 13h00 – México x Polônia – Estádio 974
+26/11 – 10h00 – Polônia x Arábia Saudita – Estádio Cidade da Educação
+26/11 – 16h00 – Argentina x México – Estádio Nacional de Lusail
+30/11 – 16h00 – Arábia Saudita x México – Estádio Nacional de Lusail
+30/11 – 16h00 – Polônia x Argentina – Estádio 974
+Grupo D
+22/11 – 10h00 – Dinamarca x Tunísia – Estádio Cidade da Educação
+22/11 – 16h00 – França x Austrália – Estádio Al Janoub
+26/11 – 07h00 – Tunísia x Austrália – Estádio Al Janoub
+26/11 – 13h00 – França x Dinamarca – Estádio 974
+30/11 – 12h00 – Tunísia x França – Estádio Cidade da Educação
+30/11 – 12h00 – Austrália x Dinamarca – Estádio Al Janoub
+Grupo E
+23/11 – 10h00 – Alemanha x Japão – Estádio Internacional Khalifa
+23/11 – 13h00 – Espanha x Costa Rica ou Nova Zelândia – Estádio Al Thumama
+27/11 – 07h00 – Japão x Costa Rica ou Nova Zelândia – Estádio Ahmad bin Ali
+27/11 – 16h00 – Espanha x Alemanha – Estádio Al Bayt
+01/12 – 16h00 – Japão x Espanha – Estádio Internacional Khalifa
+01/12 – 16h00 – Costa Rica ou Nova Zelândia x Alemanha – Estádio Al Bayt
+Grupo F
+23/11 – 07h00 – Marrocos x Croácia – Estádio Al Bayt
+23/11 – 16h00 – Bélgica x Canadá – Estádio Ahmad bin Ali
+27/11 – 10h00 – Bélgica x Marrocos – Estádio Al Thumama
+27/11 – 13h00 – Croácia x Canadá – Estádio Internacional Khalifa
+01/12 – 12h00 – Croácia x Bélgica – Estádio Ahmad bin Ali
+01/12 – 12h00 – Canadá x Marrocos – Estádio Al Thumama
+Grupo G
+24/11 – 07h00 – Suíça x Camarões – Estádio Al Janoub
+24/11 – 16h00 – Brasil  x Sérvia – Estádio Nacional de Lusail
+28/11 – 07h00 – Camarões x Sérvia – Estádio Al Janoub
+28/11 – 13h00 – Brasil x Suíça – Estádio 974
+02/12 – 16h00 – Camarões x Brasil – Estádio Nacional de Lusail
+02/12 – 16h00 – Sérvia x Suíça – Estádio 974
+Grupo H
+24/11 – 10h00 – Uruguai x Coreia do Sul – Estádio Cidade da Educação
+24/11 – 13h00 – Portugal x Gana – Estádio 974
+28/11 – 10h00 – Coreia do Sul x Gana – Estádio Cidade da Educação
+28/11 – 16h00 – Portugal x Uruguai – Estádio Nacional de Lusail
+02/12 – 12h00 – Coreia do Sul x Portugal – Estádio Cidade da Educação
+02/12 – 12h00 – Gana x Uruguai – Estádio Al Janoub
