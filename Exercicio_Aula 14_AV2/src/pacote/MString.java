@@ -1,3 +1,4 @@
+// classe generica que implementa metodos a serem usados com Strings de forma geral
 package pacote;
 
 
